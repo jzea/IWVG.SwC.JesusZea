@@ -10,5 +10,6 @@ notifications:
     recipients:
     - jazh.zea@gmail.com
 script:
-#Test unitario y de integracion en develop
 - mvn verify
+- mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
+- mvn sonar:sonar -Dsonar.organization=jzea-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR
