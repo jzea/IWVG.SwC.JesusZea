@@ -51,4 +51,9 @@ class DecimalCollectionTest {
         assertThrows(ArithmeticException.class, () -> new DecimalCollection().higher());
     }
 
+    @Test
+    void testMultiply() {
+        assertEquals(-12, this.decimalCollection.multiply(), 10e-5);
+    }
+
 }
