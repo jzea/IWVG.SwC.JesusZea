@@ -31,4 +31,11 @@ public class FractionTest {
         assertEquals(4, fraction.getNumerator());
     }
 
+    @Test
+    void TestIsEquivalente() {
+        fraction = new Fraction(2,4);
+        Fraction otherFraction = new Fraction(3,6);
+        assertEquals(true,fraction.isEquivalente(otherFraction));
+    }
+
 }
