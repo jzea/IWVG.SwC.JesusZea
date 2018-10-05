@@ -56,4 +56,10 @@ class DecimalCollectionTest {
         assertEquals(-12, this.decimalCollection.multiply(), 10e-5);
     }
 
+    @Test
+    void testMultiplyArithmeticExceptionIfEmpty() {
+        ArithmeticException exception = assertThrows(ArithmeticException.class, () -> new DecimalCollection().sum());
+        LogManager.getLogger(this.getClass()).debug(exception.getMessage());
+    }
+
 }
