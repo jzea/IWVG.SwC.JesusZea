@@ -14,28 +14,35 @@ public class FractionTest {
     }
 
     @Test
-    void TestDecimal() {
+    void testDecimal() {
         assertEquals(2, fraction.decimal());
     }
 
     @Test
-    void TestFraction() {
+    void testFraction() {
         fraction = new Fraction();
         assertEquals(1, fraction.getDenominator());
         assertEquals(1, fraction.getNumerator());
     }
 
     @Test
-    void TestFractionInt() {
+    void testFractionInt() {
         assertEquals(2, fraction.getDenominator());
         assertEquals(4, fraction.getNumerator());
     }
 
     @Test
-    void TestIsEquivalente() {
+    void testIsEquivalente() {
         fraction = new Fraction(2,4);
         Fraction otherFraction = new Fraction(3,6);
         assertEquals(true,fraction.isEquivalente(otherFraction));
+    }
+
+    @Test
+    void testIsNotEquivalente() {
+        fraction = new Fraction(2,5);
+        Fraction otherFraction = new Fraction(3,6);
+        assertEquals(false,fraction.isEquivalente(otherFraction));
     }
 
 }

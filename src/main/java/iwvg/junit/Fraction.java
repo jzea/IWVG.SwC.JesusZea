@@ -28,7 +28,7 @@ public class Fraction {
     }
 
     public boolean isEquivalente(Fraction other) {
-        return ((this.numerator*other.getDenominator())==(this.denominator*other.getNumerator()));
+        return this.numerator*other.getDenominator()==this.denominator*other.getNumerator();
     }
 
 }
