@@ -31,4 +31,8 @@ public class Fraction {
         return this.numerator*other.getDenominator()==this.denominator*other.getNumerator();
     }
 
+    public boolean isPropia(){
+         return this.getNumerator() < this.getDenominator() ? true : false;
+    }
+
 }
