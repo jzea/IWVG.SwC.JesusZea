@@ -32,7 +32,7 @@ public class Fraction {
     }
 
     public boolean isPropia(){
-         return this.getNumerator() < this.getDenominator() ? true : false;
+         return this.getNumerator() < this.getDenominator();
     }
 
     public boolean isImpropia() {
