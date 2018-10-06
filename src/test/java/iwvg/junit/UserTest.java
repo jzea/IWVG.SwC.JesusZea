@@ -30,4 +30,9 @@ public class UserTest {
         assertEquals("J.", user.initials());
     }
 
+    @Test
+    void testNameUpperCase(){
+        assertEquals("JESUS", user.nameUpperCase());
+    }
+
 }
