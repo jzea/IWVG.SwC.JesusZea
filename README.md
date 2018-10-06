@@ -1,16 +1,16 @@
-# Forja
+[![Build Status](https://travis-ci.org/jzea/IWVG.SwC.JesusZea.svg?branch=develop)](https://travis-ci.org/jzea/IWVG.SwC.JesusZea)
+# Ejercicio colaborativo 
 #### Asignatura: *Ingeniería Web: Visión General*
 #### [Máster en Ingeniería Web por la U.P.M.](http://miw.etsisi.upm.es)
 
-### Tecnologías necesarias
-* Java
-* Maven
-* IntelliJ
-* GitHub
+### Arquitecto de software
+* [Jesús Zea](https://github.com/jzea)
 
-### Descripción
-Este proyecto pretende ser una plantilla maven para crear un proyecto
-1.- Descomprimir en la carpeta de trabajo
-1.- Editar el pom.xml y cambiarle el nombre del proyecto
-1.- Desde IntelliJ, `Import Project`, marcar `Create Project from external model` y elegir `Maven`
+### Programadores
+* [Xavier Sotomayor](https://github.com/b2lero)
+* [Joel Liriano](https://github.com/jliriano)
+* [Alfredo Jiménez](https://github.com/jajxa)
+
+### Documentación detallada
+Mirar en la [wiki](https://github.com/jzea/IWVG.SwC.JesusZea/wiki) del proyecto
 
