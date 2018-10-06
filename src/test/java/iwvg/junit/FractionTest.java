@@ -47,7 +47,14 @@ public class FractionTest {
 
     @Test
     void testIsPropia(){
-        assertEquals(false, fraction.isPropia());
+        fraction = new Fraction(3,4);
+        assertEquals(true, fraction.isPropia());
+    }
+
+    @Test
+    void testIsImpropia() {
+        fraction = new Fraction(4,3);
+        assertEquals(true, fraction.isImpropia());
     }
 
 }

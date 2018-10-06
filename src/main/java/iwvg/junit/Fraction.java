@@ -35,4 +35,8 @@ public class Fraction {
          return this.getNumerator() < this.getDenominator() ? true : false;
     }
 
+    public boolean isImpropia() {
+        return !isPropia();
+    }
+
 }
